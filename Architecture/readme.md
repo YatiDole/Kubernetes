@@ -8,6 +8,8 @@
 * In Multi-Master Node System, Single Master node will be commanding Node for own workers and other Masters too.
 * Main Master Node uses etcd to manage the Workers and Other Master Nodes.
 
+![kubernetes_architecture](https://user-images.githubusercontent.com/57376468/117511381-3ae27c80-af53-11eb-8126-bb467b3fe094.PNG)
+
 
 * API-Server
 	
