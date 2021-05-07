@@ -14,6 +14,8 @@
 	* kubectl get service
 	* kubectl describe service mongo -
 
+**Screenshot**
+![kubectl_get_nodes](https://user-images.githubusercontent.com/57376468/117506311-ff43b480-af4a-11eb-85ea-07b342db3d21.PNG)
 
 * Start up a Guestbook frontend
 
@@ -23,6 +25,9 @@
 * Create frontend service
 	* kubectl apply -f https://k8s.io/examples/application/guestbook/frontend-service.yaml
 	* kubectl get pods -l app.kubernetes.io/name=guestbook -l app.kubernetes.io/component=frontend
+
+**Screenshot**
+![frontend_get_pods](https://user-images.githubusercontent.com/57376468/117506448-39ad5180-af4b-11eb-8b31-c25cb052180e.PNG)
 
 * Expose and view frontend service.
 	* Viewing the Frontend Service via kubectl port-forward
@@ -39,3 +44,7 @@
 	* kubectl delete service -l app.kubernetes.io/name=guestbook
 
 **Screenshot**
+![cleanup_getpods](https://user-images.githubusercontent.com/57376468/117506783-c9530000-af4b-11eb-9169-000bdc33bc9c.PNG)
+
+**Screenshot of Browser**
+![final_screenshot](https://user-images.githubusercontent.com/57376468/117506786-ca842d00-af4b-11eb-9c93-ab5a2cb1e0c8.PNG)
