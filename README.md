@@ -11,5 +11,3 @@ SR NO | Topic | Description
 5 | Project Images | Images specifically for Project
 6 | k8code | Includes scripts to build a cluster 
 7 | .gitignore | skip files which shouldnt be made public
-8 | Tooling Assignment |
-9 | Virtualization Project |
